@@ -1,5 +1,7 @@
-var testoPrompt = prompt("Nome");
+var nome = prompt("Nome");
 
-var testoPrompt = prompt("Cognome");
+var cognome = prompt("Cognome");
 
-var testoPrompt = prompt("Colore preferito");
+var colorePreferito = prompt("Colore preferito");
+
+document.getElementById ("pwGenerator").innerHTML = nome + cognome + colorePreferito + "21";
